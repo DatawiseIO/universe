@@ -267,7 +267,7 @@
           "type": "object"
         },
         "resource-roles": {
-          "default": ["*"],
+          "default": ["slave, slave_public"],
           "description": "List of acceptable Mesos resource roles to consider when scheduling the Kubernetes Marathon container. Set to ['slave_public'] to force running Kubernetes on a public slave.",
           "items": {
             "pattern": "^[^\\s]+$",
