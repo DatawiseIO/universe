@@ -179,7 +179,7 @@
           "type": "number"
         },
         "framework-roles": {
-          "default": "*,slave_public",
+          "default": "slave,slave_public",
           "description": "Mesos framework roles that the scheduler receives offers for. Currently only * and optionally one additional role are supported.",
           "type": "string",
           "pattern": "^([\\w*]+)(,[\\w*]+)*$"
@@ -262,7 +262,7 @@
       "description": "Marathon specific configuration properties",
       "properties": {
         "labels": {
-          "default": {},
+          "default": { "name" : "kubernetes" },
           "description": "Set of labels to be applied to the Kubernetes Marathon application instance.",
           "type": "object"
         },
