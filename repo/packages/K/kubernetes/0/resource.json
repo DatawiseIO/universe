@@ -1,0 +1,20 @@
+{
+  "images": {
+    "icon-small": "https://downloads.mesosphere.com/kubernetes/artifacts/images/k8s-48x48.png",
+    "icon-medium": "https://downloads.mesosphere.com/kubernetes/artifacts/images/k8s-96x96.png",
+    "icon-large": "https://downloads.mesosphere.com/kubernetes/artifacts/images/k8s-256x256.png",
+    "screenshots": [
+    	"https://s3-us-west-2.amazonaws.com/dcos/security.png",
+    	"https://s3-us-west-2.amazonaws.com/dcos/selfservice.png",
+    	"https://s3-us-west-2.amazonaws.com/dcos/healthscore.png",
+    	"https://s3-us-west-2.amazonaws.com/dcos/analytics.png"
+    ]
+  },
+  "assets": {
+    "container": {
+      "docker": {
+          "kubernetes": "mesosphere/kubernetes:version"
+      }
+    }
+  }
+}
